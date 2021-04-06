@@ -1,0 +1,3 @@
+module helloword {
+	exports helloword;
+}
