@@ -1,5 +1,6 @@
 package helloword;
 
+//valore che può assumere una carta nel mazzo
 public enum ValoreCarta{
 	Asso("Asso"),
 	Due("Due"),
@@ -16,6 +17,7 @@ public enum ValoreCarta{
 	Re("Re");
 	private String valore;
 	ValoreCarta(String valore){this.valore=valore;}
+	//ritorna il valore
 	public String toString() {return valore;}
 	
 }
